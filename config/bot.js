@@ -23,8 +23,8 @@ var conversationWorkspace, conversation;
 // Create the service wrapper
     conversation = watson.conversation({
         url: "https://gateway.watsonplatform.net/conversation/api"
-        , username: "<username>" // Replace <username>, including "<" and ">"
-        , password: "<password>" // Replace <password>, including "<" and ">"
+        , username: "jlguerra@soaint.com" // Replace <username>, including "<" and ">"
+        , password: "Saison3." // Replace <password>, including "<" and ">"
         , version_date: '2017-04-10'
         , version: 'v1'
     });
